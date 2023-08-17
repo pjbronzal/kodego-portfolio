@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="assets/favico/favicon.ico">
+  <title>Precious Bronzal | Portfolio</title>
+</head>
+
+<body>
+  <div class="background-image"></div>
+  <div class="content">
+
+    <nav class="navbar navbar-expand-lg pt-3 pb-3 d-flex justify-content-between align-items-center flex-wrap py-2 fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">PJB<span>.</span></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item me-5">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 hero-content text-light">
+            <h5 class="fw-bold lh-base">Hi, I'm Precious Bronzal!</h5>
+            <h1>I am a <span class="auto-input"></span></h1>
+            <p>Dedicated to collaborate with a team like-minded professional and contribute
+              to the success of the company through my technical expertise and
+              enthusiasm for programming.</p>
+            
+              <a href="#about"><i class="fa-solid fa-magnifying-glass"></i>Explore My Portfolio</a>
+          </div>
+          <div class="col-md-6 profile-photo">
+            <img src="assets/images/my-profile.png" alt="My Profile" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="row align-items-center reveal">
+        <div class="col-md-6 about-image">
+          <img src="assets/images/user-login.png" alt="Image" class="img-fluid" width="800">
+        </div>
+        <div class="col-md-6">
+          <h2 class="display-5 fw-bold text-dark">About Me</h2>
+          <h6 class="pb-3"><i class="fa-solid fa-location-dot"></i>Caloocan City, Metro Manila, Philippines</h6>
+          <p class="pb-2">I recently graduated at University of Caloocan City with a degree in Bachelor of Science in Information Technology. After working on numerous projects in college, I developed a strong interest in web and software development.</p>
+          <a href="assets/CV.pdf" target="_blank" class="me-3"><i class="fa-solid fa-arrow-down"></i>Download CV</a>
+          <a href="#contact"><i class="fa-regular fa-envelope"></i>Message Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects-section p-5" id="projects">
+    <h1 class="text-center mb-4 fw-bold reveal">Featured Projects</h1>
+    <p class="text-center mb-4 reveal">These were the projects I developed for companies and university that required me to use every aspect of my web development skills.</p>
+    <div class="row reveal">
+      <div class="col-sm-4 mb-4">
+        <div class="card p-3">
+          <img src="assets/images/eventms.png" class="card-img-top" alt="Project 1">
+          <div class="card-body text-center">
+            <h6 class="card-title fw-bold">Event Management System</h6><hr>
+            <p class="card-text">Event Management System facilitates event planning, execution, and reporting for organizers, enhancing event coordination and analysis.</p>
+            <button class="btn btn-dark" data-toggle="modal" data-target="#projectModal1"><i class="fa-regular fa-eye"></i>View Project</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mb-4">
+        <div class="card p-3">
+          <img src="assets/images/epic.png" class="card-img-top" alt="Project 2">
+          <div class="card-body text-center">
+            <h6 class="card-title fw-bold">EPIC Control System Enterprise</h6><hr>
+            <p class="card-text">EPIC Control System Enterprise is a company specialized in the supply of high quality components that are widely use in industrial companies.</p>
+            <button class="btn btn-dark" data-toggle="modal" data-target="#projectModal2"><i class="fa-regular fa-eye"></i>View Project</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mb-4">
+        <div class="card p-3">
+          <img src="assets/images/geocast.png" class="card-img-top" alt="Project 3">
+          <div class="card-body text-center">
+            <h6 class="card-title fw-bold">GeoCast</h6><hr>
+            <p class="card-text">GeoCast is a GIS analyzing and managing geographic data, displaying student demographics from University of Caloocan City's North & South campuses.</p>
+            <button class="btn btn-dark" data-toggle="modal" data-target="#projectModal3"><i class="fa-regular fa-eye"></i> View Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer" id="contact">
+    <div class="row">
+      <div class="col">
+        <h4>Quick Links</h4>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-decoration-none"><i class="fa-solid fa-house"></i>Home</a></li>
+          <li><a href="#about" class="text-decoration-none"><i class="fa-solid fa-circle-info"></i>About</a>
+          </li>
+          <li><a href="#projects" class="text-decoration-none"><i
+                class="fa-solid fa-folder-open"></i>Projects</a></li>
+          <li><a href="#contact" class="text-decoration-none"><i class="fa-solid fa-bell"></i></i>Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Address</h4>
+        <p><i class="fa-solid fa-location-dot"></i>Caloocan City<br>Metro Manila, Philippines 1400</p>
+      </div>
+      <div class="col">
+        <h4>Contact Info</h4>
+        <p><i class="fa-solid fa-envelope"></i>preciousbronzal.bsit@gmail.com<br><i class="fa-solid fa-phone"></i>(+63)
+          935-601-1209</p>
+      </div>
+      <div class="col socials">
+        <h4>Get In Touch</h4>
+        <a href="https://web.facebook.com/pretuttt" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/pretuttt_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/precious-jame-bronzal-63b861276/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/pjbronzal" target="_blank"><i class="fa-brands fa-github" target="_blank"></i></a>
+      </div>
+    </div>
+
+
+
+    <div class="row pt-4 opacity-75 copyright">
+      <div class="col text-center">
+        <p>Copyright &copy; 2023. All Rights Reserved.</p>
+      </div>
+      <div class="col text-center">
+        <p>KodeGo Portfolio | Designed by Precious Bronzal</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Event Management System Modal -->
+  <div class="modal fade" id="projectModal1" tabindex="-1" role="dialog" aria-labelledby="projectModal1Label"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title fw-bold" id="projectModal1Label">Event Management System</h6>
+        </div>
+        <div class="modal-body">
+          
+          <div id="carouselExampleFade1" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/eventms-img/1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/eventms.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/eventms-img/2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/eventms-img/3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <p class="pt-2">
+            <b>Gracious Group Lending Phils., Corp.</b><br>
+            October 2022 <br><br>
+            Event Management System is designed to help event organizers to plan, execute and report on events. It allows the administrator to manage the entire system from creation and monitoring an event, employee and visitor registration, QR code generation, and storing event reports. <br><br>
+            <b>Technology Used: </b> HTML, CSS, JavaScript, PHP, MySQL
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EPIC -->
+  <div class="modal fade" id="projectModal2" tabindex="-1" role="dialog" aria-labelledby="projectModal2Label"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title fw-bold" id="projectModal2Label">EPIC Control System Enterprise</h6>
+        </div>
+        <div class="modal-body">
+
+          <div id="carouselExampleFade2" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/epic.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/epic/1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/epic/2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/epic/3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+          <p class="pt-2">
+            <b>EPIC Control System Enterprise</b><br>
+            May 2023 <br><br>
+            EPIC Control System Enterprise is a company specialized in the supply of high quality components that are widely use in industrial companies. It supply different brand of electrical and pneumatic components that comes from reputable manufacturer.<br><br>
+            <b>Technology Used: </b> HTML, CSS, JavaScript, PHP, MySQL
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GeoCast 3 -->
+  <div class="modal fade" id="projectModal3" tabindex="-1" role="dialog" aria-labelledby="projectModal3Label"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title fw-bold" id="projectModal3Label">GeoCast</h6>
+        </div>
+        <div class="modal-body">     
+
+          <div id="carouselExampleFade3" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/geocast.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/geocast/1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/geocast/2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/geocast/3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade3" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade3" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <p class="pt-2">
+            <b>University of Caloocan City</b><br>
+            April 2023 <br><br>
+            A Geographic Information System (GIS) for University of Caloocan City students is a web-based computer system that analyzes and displays geographically referenced information. It uses data that is attached to a unique location. It is also a technological field that incorporates geographical features with tabular data, graphs, and other forms of data representation in order to map, analyze, and assess real-world problems. It is also responsible for organizing, managing, securing, and viewing students’ geolocation.<br><br>
+            <b>Technology Used: </b>PHP, MySQL, SCSS, GeoJSON, Leaflet JS, Here API
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>
