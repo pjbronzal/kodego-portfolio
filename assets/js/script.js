@@ -7,7 +7,7 @@ window.addEventListener("scroll", function () {
 
 // Hero Typing Text
 var typed = new Typed(".auto-input", {
-  strings: ["software engineer.", "web developer.", "programmer."],
+  strings: ["web developer.", "programmer."],
   typeSpeed: 50,
   backSpeed: 50,
   loop: true
